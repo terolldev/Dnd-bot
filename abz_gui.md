@@ -24,7 +24,7 @@ class Bal(disnake.ui.View):
 @bot.slash_command(description="tea")
 async def sample(self, inter):
     await inter.response.send_message(embed=disnake.Embed(description="Profile: \nDate create account in bd: {long_date} | [{short_date}]\n\n\n```cs\nYou rank: {here_place_rank_user}\n```",
-    color=disnake.Colour.random()), view=Bal())
+    color=disnake.Colour.random()), view=Bal(money, bit, coin, exp, prem, ver))
 ```
 
 ### What display balance?
