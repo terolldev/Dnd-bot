@@ -29,6 +29,6 @@ async def sample(self, inter):
 
 ### What display balance?
  - You need to create methods for finding the balance of participants.
-   - After that, just insert the variables into the Bal() class
+   - After that, just insert the variables into the `Bal()` class
 ### What is inside?
  - Inside, added number separation as in version abzval `1.8.1`
